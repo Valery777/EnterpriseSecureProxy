@@ -71,8 +71,8 @@ Example:
 ```json
 {
   "ConnectionStrings": {
-    "ProxyDb": "Host=localhost;Port=5432;Database=proxydb;Username=proxyuser;Password=StrongPassword123",
-    "SqlServerConnection": "Server=localhost;Database=SqlServerEnterpriseProxyDB;User Id=sa;Password=12345;"
+    "ProxyDb": "Host=localhost;Port=5432;Database=proxydb;Username=proxyuser;Password=ChangeMe",
+    "SqlServerConnection": "Server=localhost;Database=SqlServerEnterpriseProxyDB;User Id=sa;Password=ChangeMe;"
   }
 }
 ```
