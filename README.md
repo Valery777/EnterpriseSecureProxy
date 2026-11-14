@@ -96,10 +96,13 @@ Can select in Programm.cs SQL Server or PostgreSQL
 In the Operation entity, the concurrency token is implemented as follows:
 
 SQL Server
+
 [Timestamp]
+
 public byte[] RowVersion { get; set; }
 
 PostgreSQL concurrency token
+
 public uint xmin { get; private set; }
 
 ---
